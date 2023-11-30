@@ -17,6 +17,7 @@ void swap(struct Student* a, struct Student* b) {
 }
 
 // Function to perform heapify for Heap Sort
+//time complex - o (n log n)
 void heapify(struct Student arr[], int n, int i, int* swapCount) {
     int largest = i;
     int left = 2 * i + 1;
